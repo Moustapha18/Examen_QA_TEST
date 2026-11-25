@@ -1,0 +1,26 @@
+  champ email-id: required=true validationMessage='Veuillez renseigner ce champ.'
+  champ password: required=true validationMessage='Veuillez renseigner ce champ.'
+
+===== A. LOGIN VIDE | https://automationplayground.com/crm/login.html =====
+  h2: Login
+  label: Email address
+  label: Password
+  label: Remember me
+
+===== B. LOGIN APRES REMEMBER ME | https://automationplayground.com/crm/login.html =====
+  h2: Login
+  label: Email address
+  label: Password
+  label: Remember me
+  email-id value = ''
+  remember coche = False
+  password value = ''
+
+!!!!! ECHEC [C ajout client] ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (463, 546)
+  taille fenetre: {'width': 1296, 'height': 688} | cancel.rect: {'height': 33, 'width': 69, 'x': 456.65625, 'y': 575.0833740234375}
+  clic normal KO: Message: element click intercepted: Element is not clickable at point (491, 558)
+  element qui recouvre: rien
+  clic JS effectue
+
+===== D. APRES CANCEL | https://automationplayground.com/crm/customers.html =====
+  h2: Our Happy Customers

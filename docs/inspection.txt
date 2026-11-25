@@ -1,0 +1,241 @@
+Traceback (most recent call last):
+  File "C:\Users\USER\qa-exam-2026\tools\inspect_pages.py", line 30, in step
+    fn()
+    ~~^^
+  File "C:\Users\USER\qa-exam-2026\tools\inspect_pages.py", line 74, in cancel
+    b.click()
+    ~~~~~~~^^
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (399, 587)
+  (Session info: chrome=131.0.6778.265); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B90D80D5+2992373]
+	(No symbol) [0x00007FF7B8D6BFD0]
+	(No symbol) [0x00007FF7B8C0590A]
+	(No symbol) [0x00007FF7B8C60F2E]
+	(No symbol) [0x00007FF7B8C5E9CC]
+	(No symbol) [0x00007FF7B8C5BBA6]
+	(No symbol) [0x00007FF7B8C5AB01]
+	(No symbol) [0x00007FF7B8C4CD40]
+	(No symbol) [0x00007FF7B8C7F36A]
+	(No symbol) [0x00007FF7B8C4C596]
+	(No symbol) [0x00007FF7B8C7F580]
+	(No symbol) [0x00007FF7B8C9F584]
+	(No symbol) [0x00007FF7B8C7F113]
+	(No symbol) [0x00007FF7B8C4A918]
+	(No symbol) [0x00007FF7B8C4BA81]
+	GetHandleVerifier [0x00007FF7B9136A2D+3379789]
+	GetHandleVerifier [0x00007FF7B914C32D+3468109]
+	GetHandleVerifier [0x00007FF7B9140043+3418211]
+	GetHandleVerifier [0x00007FF7B8ECC78B+847787]
+	(No symbol) [0x00007FF7B8D7757F]
+	(No symbol) [0x00007FF7B8D72FC4]
+	(No symbol) [0x00007FF7B8D7315D]
+	(No symbol) [0x00007FF7B8D62979]
+	BaseThreadInitThunk [0x00007FFC8E49DDA7+23]
+	RtlUserThreadStart [0x00007FFC8F5F9C5C+44]
+
+Traceback (most recent call last):
+  File "C:\Users\USER\qa-exam-2026\tools\inspect_pages.py", line 30, in step
+    fn()
+    ~~^^
+  File "C:\Users\USER\qa-exam-2026\tools\inspect_pages.py", line 80, in submit_new
+    driver.find_element(By.PARTIAL_LINK_TEXT, "New Customer").click()
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"partial link text","selector":"New Customer"}
+  (Session info: chrome=131.0.6778.265); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B90D80D5+2992373]
+	(No symbol) [0x00007FF7B8D6BFD0]
+	(No symbol) [0x00007FF7B8C0590A]
+	(No symbol) [0x00007FF7B8C5926E]
+	(No symbol) [0x00007FF7B8C5955C]
+	(No symbol) [0x00007FF7B8CA27D7]
+	(No symbol) [0x00007FF7B8C7F3AF]
+	(No symbol) [0x00007FF7B8C9F584]
+	(No symbol) [0x00007FF7B8C7F113]
+	(No symbol) [0x00007FF7B8C4A918]
+	(No symbol) [0x00007FF7B8C4BA81]
+	GetHandleVerifier [0x00007FF7B9136A2D+3379789]
+	GetHandleVerifier [0x00007FF7B914C32D+3468109]
+	GetHandleVerifier [0x00007FF7B9140043+3418211]
+	GetHandleVerifier [0x00007FF7B8ECC78B+847787]
+	(No symbol) [0x00007FF7B8D7757F]
+	(No symbol) [0x00007FF7B8D72FC4]
+	(No symbol) [0x00007FF7B8D7315D]
+	(No symbol) [0x00007FF7B8D62979]
+	BaseThreadInitThunk [0x00007FFC8E49DDA7+23]
+	RtlUserThreadStart [0x00007FFC8F5F9C5C+44]
+
+Traceback (most recent call last):
+  File "C:\Users\USER\qa-exam-2026\tools\inspect_pages.py", line 30, in step
+    fn()
+    ~~^^
+  File "C:\Users\USER\qa-exam-2026\tools\inspect_pages.py", line 94, in remember_me
+    driver.find_element(By.ID, "SignIn").click()
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="SignIn"]"}
+  (Session info: chrome=131.0.6778.265); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B90D80D5+2992373]
+	(No symbol) [0x00007FF7B8D6BFD0]
+	(No symbol) [0x00007FF7B8C0590A]
+	(No symbol) [0x00007FF7B8C5926E]
+	(No symbol) [0x00007FF7B8C5955C]
+	(No symbol) [0x00007FF7B8CA27D7]
+	(No symbol) [0x00007FF7B8C7F3AF]
+	(No symbol) [0x00007FF7B8C9F584]
+	(No symbol) [0x00007FF7B8C7F113]
+	(No symbol) [0x00007FF7B8C4A918]
+	(No symbol) [0x00007FF7B8C4BA81]
+	GetHandleVerifier [0x00007FF7B9136A2D+3379789]
+	GetHandleVerifier [0x00007FF7B914C32D+3468109]
+	GetHandleVerifier [0x00007FF7B9140043+3418211]
+	GetHandleVerifier [0x00007FF7B8ECC78B+847787]
+	(No symbol) [0x00007FF7B8D7757F]
+	(No symbol) [0x00007FF7B8D72FC4]
+	(No symbol) [0x00007FF7B8D7315D]
+	(No symbol) [0x00007FF7B8D62979]
+	BaseThreadInitThunk [0x00007FFC8E49DDA7+23]
+	RtlUserThreadStart [0x00007FFC8F5F9C5C+44]
+
+
+===== 1. HOME | https://automationplayground.com/crm/index.html =====
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/index.html | text= Customer Service
+input | id=  | name=  | type= text | value=  | href= None | text= 
+a | id= SignIn | name= sign-in-link | type=  | value= None | href= https://automationplayground.com/crm/login.html | text= Sign In
+h2 | id=  | name= None | type= None | value= None | href= None | text= Customers Are Priority One!
+
+===== 2. LOGIN PAGE | https://automationplayground.com/crm/login.html =====
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/index.html | text= Customer Service
+input | id=  | name=  | type= text | value=  | href= None | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/login.html | text= Sign In
+h2 | id=  | name= None | type= None | value= None | href= None | text= Login
+label | id=  | name= None | type= None | value= None | href= None | text= Email address
+input | id= email-id | name= email-name | type= email | value=  | href= None | text= 
+label | id=  | name= None | type= None | value= None | href= None | text= Password
+input | id= password | name= password-name | type= password | value=  | href= None | text= 
+label | id=  | name= None | type= None | value= None | href= None | text= Remember me
+input | id= remember | name=  | type= checkbox | value= on | href= None | text= 
+button | id= submit-id | name= submit-name | type= submit | value=  | href= None | text= Submit
+
+===== 3. APRES LOGIN (contacts) | https://automationplayground.com/crm/customers.html?email-name=admin%40robotframeworktutorial.com&password-name=pwd&submit-name= =====
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/index.html | text= Customer Service
+input | id=  | name=  | type= text | value=  | href= None | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/sign-out.html | text= Sign Out
+h2 | id=  | name= None | type= None | value= None | href= None | text= Our Happy Customers
+a | id= new-customer | name=  | type=  | value= None | href= https://automationplayground.com/crm/add-customer.html | text= New Customer
+tr | id=  | name= None | type= None | value= None | href= None | text= # First Name Last Name Username
+th | id=  | name= None | type= None | value= None | href= None | text= #
+th | id=  | name= None | type= None | value= None | href= None | text= First Name
+th | id=  | name= None | type= None | value= None | href= None | text= Last Name
+th | id=  | name= None | type= None | value= None | href= None | text= Username
+th | id=  | name= None | type= None | value= None | href= None | text= 
+tr | id=  | name= None | type= None | value= None | href= None | text= 1 Mark Tompson the_mark7
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/user.html | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html?email-name=admin%40robotframeworktutorial.com&password-name=pwd&submit-name=#myModal | text= 
+tr | id=  | name= None | type= None | value= None | href= None | text= 2 Ashley Jacobs ash11927
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/user.html | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html?email-name=admin%40robotframeworktutorial.com&password-name=pwd&submit-name=#myModal | text= 
+tr | id=  | name= None | type= None | value= None | href= None | text= 3 Audrey Ann audann84
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/user.html | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html?email-name=admin%40robotframeworktutorial.com&password-name=pwd&submit-name=#myModal | text= 
+tr | id=  | name= None | type= None | value= None | href= None | text= 4 John Robinson jr5527
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/user.html | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html?email-name=admin%40robotframeworktutorial.com&password-name=pwd&submit-name=#myModal | text= 
+tr | id=  | name= None | type= None | value= None | href= None | text= 5 Aaron Butler aaron_butler
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/user.html | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html?email-name=admin%40robotframeworktutorial.com&password-name=pwd&submit-name=#myModal | text= 
+tr | id=  | name= None | type= None | value= None | href= None | text= 6 Chris Albert cab79
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/user.html | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html?email-name=admin%40robotframeworktutorial.com&password-name=pwd&submit-name=#myModal | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/index.html | text= Previous
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html | text= 1
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/two.html | text= 2
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/three.html | text= 3
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/two.html | text= Next
+
+===== 4. ADD CUSTOMER PAGE | https://automationplayground.com/crm/add-customer.html =====
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/index.html | text= Customer Service
+input | id=  | name=  | type= text | value=  | href= None | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/sign-out.html | text= Sign Out
+h2 | id=  | name= None | type= None | value= None | href= None | text= Add Customer
+label | id=  | name= None | type= None | value= None | href= None | text= Email
+input | id= EmailAddress | name=  | type= email | value=  | href= None | text= 
+label | id=  | name= None | type= None | value= None | href= None | text= First Name
+input | id= FirstName | name=  | type= text | value=  | href= None | text= 
+label | id=  | name= None | type= None | value= None | href= None | text= Last Name
+input | id= LastName | name=  | type= text | value=  | href= None | text= 
+label | id=  | name= None | type= None | value= None | href= None | text= City
+input | id= City | name=  | type= text | value=  | href= None | text= 
+label | id=  | name= None | type= None | value= None | href= None | text= State
+select | id= StateOrRegion | name= state | type= select-one | value=  | href= None | text= N/A    Alaska    Alabama    Arkansas    Arizona    Californi
+option | id=  | name= None | type= None | value=  | href= None | text= N/A
+option | id=  | name= None | type= None | value= AK | href= None | text= Alaska
+option | id=  | name= None | type= None | value= AL | href= None | text= Alabama
+option | id=  | name= None | type= None | value= AR | href= None | text= Arkansas
+option | id=  | name= None | type= None | value= AZ | href= None | text= Arizona
+option | id=  | name= None | type= None | value= CA | href= None | text= California
+option | id=  | name= None | type= None | value= CO | href= None | text= Colorado
+option | id=  | name= None | type= None | value= CT | href= None | text= Connecticut
+option | id=  | name= None | type= None | value= DC | href= None | text= District of Columbia
+option | id=  | name= None | type= None | value= DE | href= None | text= Delaware
+option | id=  | name= None | type= None | value= FL | href= None | text= Florida
+option | id=  | name= None | type= None | value= GA | href= None | text= Georgia
+option | id=  | name= None | type= None | value= HI | href= None | text= Hawaii
+option | id=  | name= None | type= None | value= IA | href= None | text= Iowa
+option | id=  | name= None | type= None | value= ID | href= None | text= Idaho
+option | id=  | name= None | type= None | value= IL | href= None | text= Illinois
+option | id=  | name= None | type= None | value= IN | href= None | text= Indiana
+option | id=  | name= None | type= None | value= KS | href= None | text= Kansas
+option | id=  | name= None | type= None | value= KY | href= None | text= Kentucky
+option | id=  | name= None | type= None | value= LA | href= None | text= Louisiana
+option | id=  | name= None | type= None | value= MA | href= None | text= Massachusetts
+option | id=  | name= None | type= None | value= MD | href= None | text= Maryland
+option | id=  | name= None | type= None | value= ME | href= None | text= Maine
+option | id=  | name= None | type= None | value= MI | href= None | text= Michigan
+option | id=  | name= None | type= None | value= MN | href= None | text= Minnesota
+option | id=  | name= None | type= None | value= MO | href= None | text= Missouri
+option | id=  | name= None | type= None | value= MS | href= None | text= Mississippi
+option | id=  | name= None | type= None | value= MT | href= None | text= Montana
+option | id=  | name= None | type= None | value= NC | href= None | text= North Carolina
+option | id=  | name= None | type= None | value= ND | href= None | text= North Dakota
+option | id=  | name= None | type= None | value= NE | href= None | text= Nebraska
+option | id=  | name= None | type= None | value= NH | href= None | text= New Hampshire
+option | id=  | name= None | type= None | value= NJ | href= None | text= New Jersey
+option | id=  | name= None | type= None | value= NM | href= None | text= New Mexico
+option | id=  | name= None | type= None | value= NV | href= None | text= Nevada
+option | id=  | name= None | type= None | value= NY | href= None | text= New York
+option | id=  | name= None | type= None | value= OH | href= None | text= Ohio
+option | id=  | name= None | type= None | value= OK | href= None | text= Oklahoma
+option | id=  | name= None | type= None | value= OR | href= None | text= Oregon
+option | id=  | name= None | type= None | value= PA | href= None | text= Pennsylvania
+option | id=  | name= None | type= None | value= PR | href= None | text= Puerto Rico
+option | id=  | name= None | type= None | value= RI | href= None | text= Rhode Island
+option | id=  | name= None | type= None | value= SC | href= None | text= South Carolina
+option | id=  | name= None | type= None | value= SD | href= None | text= South Dakota
+option | id=  | name= None | type= None | value= TN | href= None | text= Tennessee
+option | id=  | name= None | type= None | value= TX | href= None | text= Texas
+option | id=  | name= None | type= None | value= UT | href= None | text= Utah
+option | id=  | name= None | type= None | value= VA | href= None | text= Virginia
+option | id=  | name= None | type= None | value= VT | href= None | text= Vermont
+option | id=  | name= None | type= None | value= WA | href= None | text= Washington
+option | id=  | name= None | type= None | value= WI | href= None | text= Wisconsin
+option | id=  | name= None | type= None | value= WV | href= None | text= West Virginia
+option | id=  | name= None | type= None | value= WY | href= None | text= Wyoming
+input | id=  | name= gender | type= radio | value= male | href= None | text= 
+input | id=  | name= gender | type= radio | value= female | href= None | text= 
+input | id=  | name= promos-name | type= checkbox | value= promos-yes | href= None | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/customers.html | text= Cancel
+button | id=  | name=  | type= submit | value=  | href= None | text= Submit
+
+!!!!! ECHEC a l'etape : cancel
+
+!!!!! ECHEC a l'etape : submit new customer
+
+===== 7. APRES LOGOUT | https://automationplayground.com/crm/sign-out.html =====
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/index.html | text= Customer Service
+input | id=  | name=  | type= text | value=  | href= None | text= 
+a | id=  | name=  | type=  | value= None | href= https://automationplayground.com/crm/login.html | text= Sign In
+h2 | id=  | name= None | type= None | value= None | href= None | text= Signed Out
+
+!!!!! ECHEC a l'etape : remember me

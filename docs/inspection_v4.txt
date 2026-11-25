@@ -1,0 +1,51 @@
+viewport: [1283, 591]
+
+===== B. REMEMBER ME (diagnostic) =====
+  cookies: [{'domain': '.automationplayground.com', 'expiry': 1830075949, 'httpOnly': False, 'name': '_ga_NGEFJL0H65', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'GS2.1.s1795515945$o1$g1$t1795515949$j56$l0$h2012925162'}, {'domain': '.automationplayground.com', 'expiry': 1830075949, 'httpOnly': False, 'name': '_ga', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'GA1.1.2082550820.1795515946'}]
+  localStorage: {}
+  cookies apres logout: [{'domain': '.automationplayground.com', 'expiry': 1830075951, 'httpOnly': False, 'name': '_ga_NGEFJL0H65', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'GS2.1.s1795515945$o1$g1$t1795515951$j54$l0$h2012925162'}, {'domain': '.automationplayground.com', 'expiry': 1830075951, 'httpOnly': False, 'name': '_ga', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'GA1.1.2082550820.1795515946'}]
+  email-id = ''
+  remember coche = False
+
+===== C. AJOUT CLIENT =====
+  OK   email
+  OK   prenom
+  OK   nom
+  OK   ville
+  OK   etat
+  OK   genre
+  OK   promo
+  OK   submit
+  URL apres submit: https://automationplayground.com/crm/customer-success.html?state=NY&gender=male&promos-name=promos-yes
+  texte page: Customer Service | Sign Out | Success! New customer added. | × | Our Happy Customers | New Customer | # First Name Last Name Username | 1 Mark Tompson the_mark7 | 2 Ashley Jacobs ash11927 | 3 Audrey Ann audann84 | 4 John Robinson jr5527 | 5 Aaron Butler aaron_butler | 6 Chris Albert cab79 | Previous | 1 | 2 | 3 | Next
+  lien: 'Customer Service' -> https://automationplayground.com/crm/index.html
+  lien: 'Sign Out' -> https://automationplayground.com/crm/sign-out.html
+  lien: 'New Customer' -> https://automationplayground.com/crm/add-customer.html
+  lien: '' -> https://automationplayground.com/crm/user.html
+  lien: '' -> https://automationplayground.com/crm/customer-success.html?state=NY&gender=male&promos-name=promos-yes#myModal
+  lien: '' -> https://automationplayground.com/crm/user.html
+  lien: '' -> https://automationplayground.com/crm/customer-success.html?state=NY&gender=male&promos-name=promos-yes#myModal
+  lien: '' -> https://automationplayground.com/crm/user.html
+  lien: '' -> https://automationplayground.com/crm/customer-success.html?state=NY&gender=male&promos-name=promos-yes#myModal
+  lien: '' -> https://automationplayground.com/crm/user.html
+  lien: '' -> https://automationplayground.com/crm/customer-success.html?state=NY&gender=male&promos-name=promos-yes#myModal
+  lien: '' -> https://automationplayground.com/crm/user.html
+  lien: '' -> https://automationplayground.com/crm/customer-success.html?state=NY&gender=male&promos-name=promos-yes#myModal
+  lien: '' -> https://automationplayground.com/crm/user.html
+  lien: '' -> https://automationplayground.com/crm/customer-success.html?state=NY&gender=male&promos-name=promos-yes#myModal
+  lien: 'Previous' -> https://automationplayground.com/crm/index.html
+  lien: '1' -> https://automationplayground.com/crm/customers.html
+  lien: '2' -> https://automationplayground.com/crm/two.html
+  lien: '3' -> https://automationplayground.com/crm/three.html
+  lien: 'Next' -> https://automationplayground.com/crm/three.html
+  GRILLE: 6 lignes de donnees
+    1 Mark Tompson the_mark7
+    2 Ashley Jacobs ash11927
+    3 Audrey Ann audann84
+    4 John Robinson jr5527
+    5 Aaron Butler aaron_butler
+    6 Chris Albert cab79
+
+===== D. CANCEL (clic normal, fenetre 1920x1080) =====
+  OK   cancel
+  URL apres cancel: https://automationplayground.com/crm/customers.html
