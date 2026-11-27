@@ -1,0 +1,7 @@
+horodatage,cas,requete,code_attendu_contrat,code_obtenu,verdict,corps_obtenu
+2026-11-26T02:05:37,TC-API-02,GET /pet/{id inexistant},404,404,CONFORME,"{""code"":1,""type"":""error"",""message"":""Pet not found""}"
+2026-11-26T02:05:38,TC-API-03,GET /pet/abc,400,404,ECART,"{""code"":404,""type"":""unknown"",""message"":""java.lang.NumberFormatException: For input string: \""abc\""""}"
+2026-11-26T02:05:38,TC-API-04,POST /pet (JSON malforme),405,500,ECART,"{""code"":500,""type"":""unknown"",""message"":""something bad happened""}"
+2026-11-26T02:05:39,TC-API-05,GET /pet/findByStatus?status=invalide,400,200,ECART,[]
+2026-11-26T02:05:39,TC-API-06,DELETE /pet/{id} (2e suppression),404,404,CONFORME,
+2026-11-26T02:05:40,TC-API-07,POST /pet (corps vide),405,405,CONFORME,"{""code"":405,""type"":""unknown"",""message"":""no data""}"
